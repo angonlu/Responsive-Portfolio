@@ -3,7 +3,6 @@
 body {
 	background-image: url("../images/wood.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	margin: 0;
 }
 
 
@@ -30,7 +29,10 @@ body {
     margin-bottom: 0px;
     font-size: 30px;
 }
-/* css for Navigation links */
+ css for Navigation links 
+a {
+    text-decoration: none;
+}
 #toplinks {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	text-decoration: none;
@@ -42,6 +44,14 @@ body {
     margin-top: 10px;
 
 }
+.navlinks {
+    display: inline-block;
+    color: #666;
+}
+.navlinks a{
+    color: #666;
+}
+
 #toplinks li {
     width: 50px;
     padding: 11px;
@@ -51,10 +61,12 @@ body {
 	color: #666;
 	text-decoration: none;
 }
-/*gives portfolio link border on both sides.*/
+gives portfolio link border on both sides.
 #middlelink {
 	border-left: 1px solid #F4F4F4;
 	border-right: 1px solid #F4F4F4;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 /*css for footer*/
 #footer {
@@ -70,7 +82,7 @@ body {
     font-size: 15px;
     bottom: 0;
 }
-/* CSS for Sidebar*/
+ /*CSS for Sidebar*/
 #sidebar {
 	padding: 10px;
     float: left;
@@ -80,7 +92,7 @@ body {
     background-color: white;
     border: 1px solid #dddddd;
 }
-/*CSS for text inside sidebar */
+/*CSS for text inside sidebar*/
 #sidebar h3 {
 	text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -211,16 +223,33 @@ body {
 }
 @media screen and (max-width: 640px) {
      body {
-        width: 640px;
+        max-width: 640px;
+        text-align: center;
     }
     #topnav {
         position: static;
-        width: 100%;
+        padding-right: 50px;
+    }
+    #topnav h1 {
+        margin-left: 0;
+        width: 103%;
     }
     #middle, #contact {
-        width: 100%;
-        margin: 10px auto;
-        padding: 3px;
+    margin: 10px;
+    padding: 3px;
+    margin-left: 20px;
+    text-align: center;
+    }
+    #middle img {
+        display: block;
+        width: 33%;
+        margin-left: 33%;
+        margin-right: 33%;
+    }
+    #middle p {
+        clear: both;
+        margin: 10px;
+
     }
     #sidebar {
         margin: 10px auto;
@@ -228,19 +257,25 @@ body {
         width: 640px;
         text-align: center;
         padding: 3px;
+        margin-left: 20px;
 
     }
     #topnav h1 {
         margin-left: 0;
     }
     #toplinks {
-
+     clear: both;
+    width: 100%;
+    margin: 0;
+    }
+    .navlinks {
+        width: 33.3%;
+        padding: 0px;
+        margin: 0 50px;
     }
     #footer {
         clear: both;
         position: static;
     }
-
-    
 
 }
