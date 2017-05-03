@@ -223,7 +223,7 @@ gives portfolio link border on both sides.
     }
 }
 @media screen and (max-width: 640px) {
-     body {
+    body {
         max-width: 640px;
         text-align: center;
     }
