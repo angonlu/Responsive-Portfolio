@@ -29,7 +29,7 @@ body {
     margin-bottom: 0px;
     font-size: 30px;
 }
- css for Navigation links 
+ /*css for Navigation links*/
 a {
     text-decoration: none;
 }
@@ -44,19 +44,20 @@ a {
     margin-top: 10px;
 
 }
-.navlinks {
-    display: inline-block;
-    color: #666;
-}
-.navlinks a{
-    color: #666;
-}
+    #aboutLink,
+    #portfolioLink,
+    #contactLink {
+        display: inline-block;
+        color: #666;
+        width: 50px;
+        padding: 11px;
+        display: inline-block;
+        text-decoration: none;
 
-#toplinks li {
-    width: 50px;
-    padding: 11px;
-    display: inline-block;
-}
+        
+    }
+
+
 #toplinks li a {
 	color: #666;
 	text-decoration: none;
@@ -270,10 +271,10 @@ gives portfolio link border on both sides.
     #portfolioLink,
     #contactLink {
         clear: both;
-        margin: 0;
-        width: 33.3%;
-        padding: 0px;
+        width: 25%;
+        padding: 10px;
     }
+    #portfolio
     #footer {
         clear: both;
         position: static;
