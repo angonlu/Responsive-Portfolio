@@ -221,7 +221,9 @@ gives portfolio link border on both sides.
         width: 100%;
     }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px)
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
      body {
         max-width: 640px;
         text-align: center;
@@ -254,7 +256,7 @@ gives portfolio link border on both sides.
     #sidebar {
         margin: 10px auto;
         clear: both;
-        width: 640px;
+        width: 100%;
         text-align: center;
         padding: 3px;
         margin-left: 20px;
