@@ -200,10 +200,12 @@ gives portfolio link border on both sides.
 }
 @media screen and (max-width: 768px) {
      body {
-        
+        width: 768px;
+
     }
     #topnav {
         position: static;
+        width: 107%;
     }
     #topnav h1 {
 
@@ -214,12 +216,20 @@ gives portfolio link border on both sides.
     #toplinks li {
 
     }
+    #sidebar {
+        clear: both;
+        width: 100%;
+        margin: 20px 5px;
+        text-align: center;
+    }
     #footer {
-        
+        position: static;
+        clear: both;
     }
 
     #middle, #contact {
         width: 100%;
+        margin: 20px 5px;
     }
 }
 @media screen and (max-width: 640px) {
