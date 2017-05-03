@@ -234,6 +234,7 @@ gives portfolio link border on both sides.
         margin-left: 0;
         width: 103%;
     }
+
     #middle, #contact {
     margin: 10px;
     padding: 3px;
@@ -258,20 +259,20 @@ gives portfolio link border on both sides.
         text-align: center;
         padding: 3px;
         margin-left: 20px;
-
-    }
-    #topnav h1 {
-        margin-left: 0;
     }
     #toplinks {
-     clear: both;
-    width: 100%;
-    margin: 0;
+        margin: 0px;
+        width: 100%;
+        margin: 0px;
     }
-    .navlinks {
+    
+    #aboutLink,
+    #portfolioLink,
+    #contactLink {
+        clear: both;
+        margin: 0;
         width: 33.3%;
         padding: 0px;
-        margin: 0 50px;
     }
     #footer {
         clear: both;
