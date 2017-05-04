@@ -4,8 +4,6 @@ body {
 	background-image: url("../images/wood.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
-
 #topnav {
 	width: 100%;
 	background-color: #FFFFFF;
@@ -42,7 +40,6 @@ a {
     margin-right: 50px;
     margin-bottom: 0px;
     margin-top: 10px;
-
 }
     #aboutLink,
     #portfolioLink,
@@ -53,16 +50,12 @@ a {
         padding: 11px;
         display: inline-block;
         text-decoration: none;
-
-        
     }
-
-
 #toplinks li a {
 	color: #666;
 	text-decoration: none;
 }
-gives portfolio link border on both sides.
+/*gives portfolio link border on both sides.*/
 #middlelink {
 	border-left: 1px solid #F4F4F4;
 	border-right: 1px solid #F4F4F4;
@@ -75,7 +68,7 @@ gives portfolio link border on both sides.
     width: 100%;
     background-color: #666666;
     text-align: center;
-    padding: 25px;
+    padding: 25px 0 0 0;
     vertical-align: middle;
     position: fixed;
     border-top: 5px solid #41AAA5;
@@ -123,7 +116,6 @@ gives portfolio link border on both sides.
     float: left;
     border: 1px solid #dddddd;
 }
-
 #middle h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #41AAA5;
@@ -133,7 +125,6 @@ gives portfolio link border on both sides.
     border-bottom: 3px solid #CCCCCC;
     padding-bottom: 7px;
 }
-
 #middle p {
     line-height: 1.5;
     padding-top: 15px;
@@ -169,16 +160,12 @@ gives portfolio link border on both sides.
     height: 23px;
     width: 55px;
     border: 1px solid #dddddd;
-
 }
-
-
-
 /*Css for different screen sizes */
-
 @media screen and (max-width: 980px) {
-    body {
-
+    #container {
+        width: 980px;
+        text-align: center;
     }
    #topnav {
         position: static;
@@ -189,18 +176,45 @@ gives portfolio link border on both sides.
     #toplinks {
 
     }
+    #sidebar {
+        width: 26%;
+        margin: 5px;
+        margin-top: 5%;
+        margin-left: 5%;
+
+    }
     #footer {
+        position: static;
+        clear: both;
         
     }
 
     #middle, #contact {
-        width: 100%;
+        width: 50%;
+        margin: 5px;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #middle img {
+        float: initial;
+    }
+    #middle p {
+        clear: both;
+        text-align: center;
+
+    }
+    #middle h2 {
+        text-align: left;
+        padding-left: 10px;
+
     }
 
 }
 @media screen and (max-width: 768px) {
-     body {
+     #container {
         width: 768px;
+        text-align: center;
 
     }
     #topnav {
@@ -231,45 +245,58 @@ gives portfolio link border on both sides.
         width: 100%;
         margin: 20px 5px;
     }
+    #middle p {
+        clear: initial;
+        text-align: left;
+        line-height: 1.6;
+
+    }
+    #middle img {
+        float: initial;
+
+    }
+    #middle h2 {
+        text-align: left;
+        padding-left: 10px;
+        
+    }
 }
 @media screen and (max-width: 640px) {
-    body {
-        max-width: 640px;
+    #container {
+        width: 640px;
         text-align: center;
     }
     #topnav {
         position: static;
         padding-right: 50px;
+        width: 107%;
     }
     #topnav h1 {
         margin-left: 0;
-        width: 103%;
+        width: 100%;
     }
-
     #middle, #contact {
-    margin: 10px;
-    padding: 3px;
-    margin-left: 20px;
-    text-align: center;
+        margin: 10px 0;
+        padding: 0;
+        text-align: center;
     }
     #middle img {
-        display: block;
-        width: 33%;
-        margin-left: 33%;
-        margin-right: 33%;
     }
     #middle p {
         clear: both;
         margin: 10px;
 
     }
+    #middle h2 {
+        text-align: left;
+        padding-left: 10px;
+        
+    }
     #sidebar {
         margin: 10px auto;
         clear: both;
         width: 100%;
         text-align: center;
-        padding: 3px;
-        margin-left: 20px;
     }
     #toplinks {
         margin: 0px;
@@ -287,6 +314,6 @@ gives portfolio link border on both sides.
     #footer {
         clear: both;
         position: static;
+        width: 107%;
     }
-
 }
