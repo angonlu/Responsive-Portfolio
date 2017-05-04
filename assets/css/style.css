@@ -219,7 +219,7 @@ a {
     }
     #topnav {
         position: static;
-        width: 107%;
+        width: 100%;
     }
     #topnav h1 {
 
@@ -268,8 +268,6 @@ a {
     }
     #topnav {
         position: static;
-        padding-right: 50px;
-        width: 107%;
     }
     #topnav h1 {
         margin-left: 0;
@@ -293,10 +291,8 @@ a {
         
     }
     #sidebar {
-        margin: 10px auto;
-        clear: both;
-        width: 100%;
-        text-align: center;
+        margin: 0 auto;
+        padding: 0;
     }
     #toplinks {
         margin: 0px;
@@ -314,6 +310,6 @@ a {
     #footer {
         clear: both;
         position: static;
-        width: 107%;
+        width: 100%;
     }
 }
