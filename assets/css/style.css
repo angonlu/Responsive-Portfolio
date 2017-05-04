@@ -4,6 +4,7 @@ body {
 	background-image: url("../images/wood.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
 #topnav {
 	width: 100%;
 	background-color: #FFFFFF;
@@ -68,7 +69,7 @@ a {
     width: 100%;
     background-color: #666666;
     text-align: center;
-    padding: 25px 0 0 0;
+    padding: 25px 0px 25px 0px;
     vertical-align: middle;
     position: fixed;
     border-top: 5px solid #41AAA5;
@@ -130,6 +131,7 @@ a {
     padding-top: 15px;
     color: #7B7F8B;
 }
+
 #middle img {
     float: left;
     margin-top: 20px;
@@ -186,6 +188,7 @@ a {
     #footer {
         position: static;
         clear: both;
+        padding-bottom: 25px;
         
     }
 
@@ -197,26 +200,28 @@ a {
         margin-bottom: 5%;
     }
     #middle img {
+        display: block;
+        margin: 0 auto;
         float: initial;
     }
     #middle p {
         clear: both;
-        text-align: center;
 
     }
     #middle h2 {
         text-align: left;
-        padding-left: 10px;
 
     }
 
 }
 @media screen and (max-width: 768px) {
     #container {
-        width: 90%;
-        margin: 50px 20px;
-        text-align: center;
+        width: 768px;
 
+    }
+    p:hover {
+    color: #41AAA5;
+    background-color: white;
     }
     #topnav {
         position: static;
@@ -250,13 +255,12 @@ a {
     }
     #middle p {
         clear: initial;
-        text-align: left;
         line-height: 1.6;
 
     }
     #middle img {
-        display: block;
-        margin: 0 auto;
+        display: inline;
+        float: left;
 
     }
     #middle h2 {
@@ -269,6 +273,7 @@ a {
     #container {
         width: 640px;
         text-align: center;
+        margin: 0 auto;
     }
     #topnav {
         position: static;
@@ -281,8 +286,10 @@ a {
         margin: 10px 0;
         padding: 0;
         text-align: center;
+        margin-left: 5%;
     }
     #middle img {
+        float: initial;
     }
     #middle p {
         clear: both;
@@ -297,6 +304,8 @@ a {
     #sidebar {
         margin: 0 auto;
         padding: 0;
+        margin-bottom: 15px;
+        margin-left: 5%;
     }
     #toplinks {
         margin: 0px;

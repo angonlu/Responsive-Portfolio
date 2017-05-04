@@ -7,7 +7,7 @@
     width: 40%;
     margin-left: 30px;
 }
-#blog img{
+#blog img {
 	float: left;
     width: 100%;
     margin-right: 10px;
@@ -17,8 +17,8 @@
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin: 0;
     position: absolute;
-    top: 125px;
     color: white;
+    top: 125px;
     background-color: #41AAA5;
     width: 100%;
     padding-top: 7px;
@@ -27,7 +27,7 @@
     font-size: 20px;
     color: white;
 }
- p:hover {
+#middle p:hover {
 	color: #41AAA5;
 	background-color: white;
 }
@@ -40,7 +40,7 @@
     margin-right: 30px;
 }
 
-#hangman img{
+#hangman img {
 	float: left;
     width: 100%;
 }
@@ -94,17 +94,199 @@
 
 
 @media screen and (max-width: 980px) {
+    #blog {
+    margin: 0px auto;
+    position: relative;
+    display: block;
+    float: initial;
+    width: 50%;
 
+}
+
+#blog img {
+    margin-bottom: 10px;
+
+}
+
+#hangman {
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    float: initial;
+    width: 50%;
+}
+#hangman img {
+    margin-bottom: 10px;
+}
+#playlist{
+    clear: both;
+    margin: 0 auto;
+    float: initial;
+    width: 50%;
+
+}
+#playlist img {
+    margin-bottom: 10px;  
+}
+#maps {
+    margin: 0 auto;
+    clear: both;
+    float: initial;
+    width: 50%;
+}
+#maps img {
+    margin-bottom: 10px;
+}
+#pets {
+    clear: both;
+    float: initial;
+    margin: 0 auto;
+    width: 50%;
+
+}
+#pets img {
+    margin-bottom: 10px;
+}
 }
 
 
 @media screen and (max-width: 768px) {
+ #blog {
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: 30px;
+}
+#blog img {
+    float: left;
+    width: 100%;
+    margin-right: 10px;
+}
 
+#middle p:hover {
+    color: #41AAA5;
+    background-color: white;
+}
+
+#hangman {
+    clear: none;
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-right: 30px;
+}
+
+#hangman img{
+    float: left;
+    width: 100%;
+}
+
+
+#playlist {
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#playlist img {
+    clear: both;
+    width: 100%;
+    float: left;
+
+}
+
+
+#maps {
+    clear: none;
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 30px;
+
+}
+
+#maps img {
+    float: left;
+    width: 100%;
+}
+
+
+#pets {
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+#pets img {
+    clear: both;
+    width: 100%;
+    float: left;
+}
+    
 }
 
 
 @media screen and (max-width: 640px) {
 
+#blog {
+    margin: 0px auto;
+    position: relative;
+    display: block;
+    float: initial;
+    width: 50%;
+
+}
+
+#blog img {
+    margin-bottom: 10px;
+
+}
+
+#hangman {
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    float: initial;
+    width: 50%;
+}
+#hangman img {
+    margin-bottom: 10px;
+}
+#playlist{
+    clear: both;
+    margin: 0 auto;
+    float: initial;
+    width: 50%;
+
+}
+#playlist img {
+    margin-bottom: 10px;  
+}
+#maps {
+    margin: 0 auto;
+    clear: both;
+    float: initial;
+    width: 50%;
+}
+#maps img {
+    margin-bottom: 10px;
+}
+#pets {
+    clear: both;
+    float: initial;
+    margin: 0 auto;
+    width: 50%;
+
+}
+#pets img {
+    margin-bottom: 10px;
+}
 }
 
 
