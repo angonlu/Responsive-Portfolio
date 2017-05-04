@@ -78,7 +78,7 @@ a {
 }
  /*CSS for Sidebar*/
 #sidebar {
-	padding: 10px;
+	padding: 15px;
     float: left;
     margin-top: 120px;
     margin-left: 30px;
@@ -212,8 +212,9 @@ a {
 
 }
 @media screen and (max-width: 768px) {
-     #container {
-        width: 768px;
+    #container {
+        width: 90%;
+        margin: 50px 20px;
         text-align: center;
 
     }
@@ -222,6 +223,7 @@ a {
         width: 100%;
     }
     #topnav h1 {
+        margin-left: 25px;
 
     }
     #toplinks {
@@ -232,18 +234,19 @@ a {
     }
     #sidebar {
         clear: both;
-        width: 100%;
-        margin: 20px 5px;
+        width: 90%;
+        margin: 20px 20px;
         text-align: center;
     }
     #footer {
         position: static;
         clear: both;
+        padding-bottom: 25px;
     }
 
     #middle, #contact {
-        width: 100%;
-        margin: 20px 5px;
+        width: 90%;
+        margin: 50px 20px;
     }
     #middle p {
         clear: initial;
@@ -252,7 +255,8 @@ a {
 
     }
     #middle img {
-        float: initial;
+        display: block;
+        margin: 0 auto;
 
     }
     #middle h2 {
@@ -311,5 +315,6 @@ a {
         clear: both;
         position: static;
         width: 100%;
+        padding-bottom: 25px;
     }
 }
