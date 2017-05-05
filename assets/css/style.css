@@ -140,6 +140,9 @@ a {
 }
 
 /*Styles for form and button on contact page */
+form {
+    text-align: left;
+}
 #fullName {
     width: 100%;
     height: 25px;
@@ -212,6 +215,15 @@ a {
         text-align: left;
 
     }
+    #fullName {
+
+    }
+    #name {
+
+    }
+    #message {
+        
+    }
 
 }
 @media screen and (max-width: 768px) {
@@ -267,6 +279,20 @@ a {
         text-align: left;
         padding-left: 10px;
         
+    }
+    #fullName {
+        width: 100%
+
+    }
+    #email {
+        width: 100%;
+    }
+    #message {
+        width: 100%;
+    }
+    #button {
+        float: left;
+        margin: 10px;
     }
 }
 @media screen and (max-width: 640px) {
@@ -325,5 +351,24 @@ a {
         position: static;
         width: 100%;
         padding-bottom: 25px;
+    }
+
+    #fullName {
+        width: 95%;
+        margin: 0px 10px;
+
+    }
+    #email {
+        width: 95%;
+        margin: 0px 10px;
+    }
+    
+    #message {
+        width: 95%;
+        margin: 0px 10px;
+    }
+    #button {
+        float: left;
+        margin: 10px;
     }
 }
