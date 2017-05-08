@@ -256,7 +256,7 @@ form {
         text-align: center;
     }
     #footer {
-        position: static;
+        position: fixed;
         clear: both;
         padding-bottom: 25px;
     }
