@@ -1,129 +1,42 @@
 /*Css for different screen sizes */
 
-@media screen and (max-width: 980px) {
-    #container {
-        width: 980px;
-        text-align: center;
+@media screen and (max-width: 980px){
+    #header {
+        padding: 2%;
+        width: 30%;
     }
-   #topnav {
-        position: static;
-    }
-    #topnav h1 {
-
-    }
-    #toplinks {
-
-    }
-    #sidebar {
-        width: 26%;
-        margin: 5px;
-        margin-top: 5%;
-        margin-left: 5%;
-    }
-    #footer {
-        position: static;
-        clear: both;
-        padding-bottom: 25px;
-    }
-
-    #middle, #contact {
-        width: 50%;
-        margin: 5px;
-        margin-left: 5%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    #middle img {
-        display: block;
-        margin: 0 auto;
-        float: initial;
-    }
-    #middle p {
-        clear: both;
-
-    }
-    #middle h2 {
-        text-align: left;
-
-    }
-    #fullName {
-
-    }
-    #name {
-
-    }
-    #message {
-        
-    }
-
 }
-@media screen and (max-width: 768px) {
-    #container {
-        width: 768px;
 
-    }
-    p:hover {
-    color: #41AAA5;
-    background-color: white;
-    }
-    #topnav {
-        position: static;
-        width: 100%;
-    }
-    #topnav h1 {
-        margin-left: 25px;
 
+@media screen and (max-width: 768px){
+    #header {
+        width: 33%;
+        font-size: 35px;
     }
-    #toplinks {
+    ul {
+        margin: 0;
+    }
+    li {
+        margin-top: 3%;
+    }
 
-    }
-    #toplinks li {
-
-    }
-    #sidebar {
-        clear: both;
+    .main-panel {
         width: 90%;
-        margin: 20px 20px;
-        text-align: center;
+        margin: 5%;
+        margin-top: 15%;
     }
-    #footer {
-        position: fixed;
-        clear: both;
-        padding-bottom: 25px;
+    .main-panel #me {
+        width: 40%;
+        margin: 2%;
     }
-
-    #middle, #contact {
-        width: 90%;
-        margin: 50px 20px;
-    }
-    #middle p {
-        clear: initial;
+    .main-panel p {
         line-height: 1.6;
-
     }
-    #middle img {
-        display: inline;
-        float: left;
-
-    }
-    #middle h2 {
-        text-align: left;
-        padding-left: 10px;
-        
-    }
-    #fullName {
-        width: 100%
-
-    }
-    #email {
-        width: 100%;
-    }
-    #message {
-        width: 100%;
-    }
-    #button {
-        float: left;
-        margin: 10px;
+    .sidebar {
+        width: 90%;
+        margin: 5%;
+        margin-bottom: 15%;
+        margin-top: 3%;
     }
 }
 
@@ -169,5 +82,20 @@
     }
     input {
         border: 1px #adadad solid;
+    }
+    #portfolio .project {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+    #portfolio .project p{
+        font-size: 25px;
+        padding: 2%;
+    }
+    #portfolio .project:nth-child(even){
+        float: none;
+    }
+    #portfolio .project:nth-child(odd){
+        float: none;
     }
 }
