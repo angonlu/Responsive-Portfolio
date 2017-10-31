@@ -5,6 +5,29 @@
         padding: 2%;
         width: 30%;
     }
+    .main-panel {
+        margin-top: 15%;
+    }
+    #index img{
+        width: 100%;
+        margin: 3% auto;
+    }
+    .sidebar {
+        margin-top: 15%;
+        width: 30%;
+    }
+    #portfolio .project {
+        width: 100%;
+        margin: 3% auto;
+    }
+    .project p {
+        font-size: 25px;
+        padding: 2%;
+    }
+    #contactPanel input {
+        width: 90%;
+    }
+
 }
 
 
@@ -37,6 +60,9 @@
         margin: 5%;
         margin-bottom: 15%;
         margin-top: 3%;
+    }
+    #contactPanel input {
+        width: 90%;
     }
 }
 
